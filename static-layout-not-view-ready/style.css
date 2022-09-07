@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/* Landing Homepage Section */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "oswald";
+  letter-spacing: 2px;
+}
+
+.container {
+  background-color: rgb(15, 15, 15);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+nav {
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.logo span {
+  color: orange;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social a {
+  margin: 0 20px;
+}
+
+.social a i {
+  transition: 0.5s;
+}
+
+.social a i:hover {
+  color: orange;
+}
+
+.mainLanding {
+  position: relative;
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLanding h2 {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.mainLanding h1 {
+  font-size: 150px;
+  color: orange;
+  text-transform: uppercase;
+  padding-top: 0px;
+}
+
+.mainLanding p {
+  font-size: 38px;
+  letter-spacing: 5px;
+}
+
+.ctaBtnBox {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ctaBtn {
+  text-decoration: none;
+  border: 1px solid orange;
+  padding: 15px 35px;
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.ctaBtn:hover {
+  background-color: orange;
+}
+
+.signupBtn {
+  margin-right: 15px;
+}
+
+.loginBtn {
+  margin-left: 15px;
+}
+
+/* -------------------Login/Signup Section */
+
+.loginMain {
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginCard {
+  width: 600px;
+  height: 750px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+  perspective: 1000px;
+}
+.inner-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+#card {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 55px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.loginCard h2 {
+  font-weight: normal;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.inputBox {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #fff;
+  margin: 10px 0;
+  height: 50px;
+  border-radius: 70px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+::placeholder {
+  color: rgb(201, 201, 201);
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.formBtn {
+  width: 100%;
+  background-color: orange;
+  border: 1px solid orange;
+  margin: 35px 0 10px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 70px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.submitBtn {
+  position: relative;
+}
+
+.newHereBtn {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.loginCard a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.gIcon {
+  margin-left: 5px;
+}
+
+.googleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px 20px 0px;
+}
+
+.googleBox p {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+/* ---------- Tables ----------------- */
+
+/* table {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-collapse: collapse;
+  width: 1600px;
+  height: 600px;
+  border: 1px solid #bdc3c7;
+
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  background-color: rgb(223, 223, 223);
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+}
+
+td {
+  color: black;
+  font-weight: 500;
+}
+
+#header {
+  background-color: rgb(224, 146, 0);
+  color: #fff;
+}
+
+.leagueStandingsTitle {
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 10px 0px;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+} */
+
+/* --------------------------------------Second Table----------------------------------- */
+.leagueStandingsTitle {
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: orange;
+  padding: 10px 0px;
+  font-size: 60px;
+}
+.contentTable {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.5em;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 1600px;
+}
+
+.contentTable thead tr {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contentTable th,
+.contentTable td {
+  padding: 12px 15px;
+}
+
+.contentTable td {
+  color: black;
+  text-align: center;
+}
+
+.contentTable tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.contentTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f397;
+}
+
+.contentTable tbody tr:last-of-type {
+  border-bottom: 2px solid orange;
+}
+
+/* ---------responsive---------- */
+@media (max-width: 900px) {
+  .mainLanding h2 {
+    font-size: 60px;
+  }
+  .mainLanding h1 {
+    font-size: 80px;
+  }
+  .mainLanding p {
+    font-size: 20px;
+  }
+  .ctaBtn {
+    font-size: 18px;
+  }
+
+  table {
+    width: 10%;
+  }
+}
