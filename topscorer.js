@@ -5,7 +5,7 @@ var playerStats = []
 const options = {
   method: 'GET',
   url: 'https://api-football-beta.p.rapidapi.com/players/topscorers',
-  params: {season: '2021', league: '140'},
+  params: {season: '2022', league: '39'},
   headers: {
     'X-RapidAPI-Key': 'ee03341b2amsh862838b860df93fp1c2c67jsn507296649d6f',
     'X-RapidAPI-Host': 'api-football-beta.p.rapidapi.com'
