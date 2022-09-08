@@ -1,0 +1,26 @@
+<div class="mainTable">
+  <h1 class="leagueStandingsTitle"><span>CURRENT TOP PLAYERS BY MOST GOALS</span></h1>
+
+  <table class="contentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Photo</th>
+        <th>Team</th>
+        <th>Goals</th>
+        <th>Assists</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each topScorerData}}
+        <tr>
+          <td>{{name}}</td>
+          <td><img src="{{photo}}" alt="" class="playerImg" /></td>
+          <td>{{team}}</td>
+          <td>{{goals}}</td>
+          <td>{{assists}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

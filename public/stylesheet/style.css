@@ -14,7 +14,7 @@
 .container {
   background-color: rgb(15, 15, 15);
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/bg.jpg");
+    url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -309,7 +309,7 @@ tr:hover {
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 0.8);
-  width: 1600px;
+  width: 1200px;
 }
 
 .contentTable thead tr {
@@ -321,7 +321,7 @@ tr:hover {
 
 .contentTable th,
 .contentTable td {
-  padding: 12px 15px;
+  padding: 5px 5px;
 }
 
 .contentTable td {
@@ -341,6 +341,9 @@ tr:hover {
   border-bottom: 2px solid orange;
 }
 
+.playerImg {
+  width: 50px;
+}
 /* ---------responsive---------- */
 @media (max-width: 900px) {
   .mainLanding h2 {
