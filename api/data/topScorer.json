@@ -1,0 +1,72 @@
+[
+  {
+    "name": "E. Haaland",
+    "photo": "https://media.api-sports.io/football/players/1100.png",
+    "team": "Manchester City",
+    "goals": 10,
+    "assists": 1
+  },
+  {
+    "name": "A. Mitrović",
+    "photo": "https://media.api-sports.io/football/players/2825.png",
+    "team": "Fulham",
+    "goals": 6,
+    "assists": null
+  },
+  {
+    "name": "Harry Edward Kane",
+    "photo": "https://media.api-sports.io/football/players/184.png",
+    "team": "Tottenham",
+    "goals": 5,
+    "assists": null
+  },
+  {
+    "name": "I. Toney",
+    "photo": "https://media.api-sports.io/football/players/19974.png",
+    "team": "Brentford",
+    "goals": 5,
+    "assists": 2
+  },
+  {
+    "name": "Rodrigo",
+    "photo": "https://media.api-sports.io/football/players/935.png",
+    "team": "Leeds",
+    "goals": 4,
+    "assists": 1
+  },
+  {
+    "name": "W. Zaha",
+    "photo": "https://media.api-sports.io/football/players/3247.png",
+    "team": "Crystal Palace",
+    "goals": 4,
+    "assists": null
+  },
+  {
+    "name": "A. Mac Allister",
+    "photo": "https://media.api-sports.io/football/players/6716.png",
+    "team": "Brighton",
+    "goals": 4,
+    "assists": null
+  },
+  {
+    "name": "Gabriel Jesus",
+    "photo": "https://media.api-sports.io/football/players/643.png",
+    "team": "Arsenal",
+    "goals": 3,
+    "assists": 3
+  },
+  {
+    "name": "Roberto Firmino Barbosa de Oliveira",
+    "photo": "https://media.api-sports.io/football/players/302.png",
+    "team": "Liverpool",
+    "goals": 3,
+    "assists": 3
+  },
+  {
+    "name": "M. Rashford",
+    "photo": "https://media.api-sports.io/football/players/909.png",
+    "team": "Manchester United",
+    "goals": 3,
+    "assists": 2
+  }
+]

@@ -1,4 +1,5 @@
 const axios = require("axios");
+const fs = require("fs");
 
 var playerStats = []
 
@@ -25,7 +26,8 @@ axios.request(options).then(function (response) {
     playerStats.push(position)
   }
 
-	console.log(playerStats);
+	let data = JSON.stringify(playerStats, null, 2);
+  fs.writeFileSync('api/data/topScorer.json', data);
 }).catch(function (error) {
 	console.error(error);
 });

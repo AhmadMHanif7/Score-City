@@ -1,4 +1,5 @@
 const axios = require("axios");
+const fs = require("fs");
 
 var leagueStandings = [];
 
@@ -33,7 +34,8 @@ axios.request(options).then(function (response) {
     leagueStandings.push(positions)
   }
   
-	console.log(leagueStandings);
+	let data = JSON.stringify(leagueStandings, null, 2);
+  fs.writeFileSync('api/data/leagueStandings.json', data);
 }).catch(function (error) {
 	console.error(error);
 });

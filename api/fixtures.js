@@ -1,5 +1,6 @@
 const axios = require("axios");
 var fixtureList = [];
+const fs = require('fs');
 
 const options = {
   method: 'GET',
@@ -26,8 +27,9 @@ axios.request(options).then(function (response) {
         };
         fixtureList.push(game)
     }
-
-	console.log(fixtureList);
-}).catch(function (error) {
+    let data = JSON.stringify(fixtureList, null, 2);
+    fs.writeFileSync('api/data/fixtures.json', data);
+  })
+.catch(function (error) {
 	console.error(error);
 });
