@@ -2,11 +2,8 @@ const User = require("./User");
 
 module.exports = { User };
 
+// var Auth = require('./auth');
 
-var Auth = require('./auth');
+// require('pkginfo')(module, 'version');
 
-
-require('pkginfo')(module, 'version');
-
-
-expoorts.Strategy = Strategy;
+// expoorts.Strategy = Strategy;

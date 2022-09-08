@@ -1,8 +1,8 @@
 const router = require("express").Router();
-const fixtures = require("../../api/data/fixtures.json");
+const topScorer = require("../../api/data/topScorer.json");
 
 router.get("/", (req, res) => {
-  res.json(fixtures);
+  res.json(topScorer);
 });
 
 module.exports = router;
