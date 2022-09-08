@@ -1,0 +1,40 @@
+<div class="mainTable">
+  <h1 class="leagueStandingsTitle"><span>LEAGUE STANDINGS</span></h1>
+
+  <table class="contentTable">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Logo</th>
+        <th>Games Played</th>
+        <th>Wins</th>
+        <th>Draws</th>
+        <th>Loses</th>
+        <th>Points</th>
+        <th>Goals For</th>
+        <th>Goals Against</th>
+        <th>Goal Differential</th>
+        <th>Form</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each leagueStandingsData}}
+        <tr>
+          <td>{{rank}}</td>
+          <td>{{name}}</td>
+          <td><img src="{{logo}}" alt="" class="teamLogo" /></td>
+          <td>{{gamesplayed}}</td>
+          <td>{{wins}}</td>
+          <td>{{draws}}</td>
+          <td>{{loses}}</td>
+          <td>{{points}}</td>
+          <td>{{goalsfor}}</td>
+          <td>{{goalsagainst}}</td>
+          <td>{{goaldifferential}}</td>
+          <td>{{recentform}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

@@ -304,12 +304,29 @@ tr:hover {
   transform: translate(-50%, -50%);
   border-collapse: collapse;
   margin: 25px 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 0.8);
   width: 1200px;
+  height: 400px;
+}
+
+.topScorerContentTable {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 800px;
+  height: 400px;
 }
 
 .contentTable thead tr {
@@ -343,6 +360,48 @@ tr:hover {
 
 .playerImg {
   width: 50px;
+}
+.teamLogo {
+  width: 50px;
+}
+
+/* -------------------------------------- Scoreboard  */
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 800px;
+  height: 400px;
+  background: linear-gradient(rgba(24, 24, 24, 0.8), rgba(24, 24, 24, 0.8)),
+    url("../images/bg2.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(255, 255, 255, 0.671);
+}
+
+.team1 {
+  width: 150px;
+}
+
+.teamLogo1 {
+  margin-right: 100px;
+}
+.teamLogo2 {
+  margin-left: 100px;
+}
+.scoreText {
+  font-size: 3em;
+}
+.team1Name {
+  font-size: 2em;
+}
+
+footer {
+  margin-top: 50px;
 }
 /* ---------responsive---------- */
 @media (max-width: 900px) {
