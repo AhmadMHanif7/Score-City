@@ -2,101 +2,51 @@
   {
     "referee": "A. Taylor",
     "venue": "Vitality Stadium",
-    "home team": "Bournemouth",
-    "home logo": "https://media.api-sports.io/football/teams/35.png",
-    "home goal": 0,
-    "away team": "Wolves",
-    "away logo": "https://media.api-sports.io/football/teams/39.png",
-    "away goal": 0
+    "hometeam": "Bournemouth",
+    "homelogo": "https://media.api-sports.io/football/teams/35.png",
+    "homegoal": 0,
+    "awayteam": "Wolves",
+    "awaylogo": "https://media.api-sports.io/football/teams/39.png",
+    "awaygoal": 0
   },
   {
     "referee": "R. Jones",
     "venue": "Emirates Stadium",
-    "home team": "Arsenal",
-    "home logo": "https://media.api-sports.io/football/teams/42.png",
-    "home goal": 2,
-    "away team": "Aston Villa",
-    "away logo": "https://media.api-sports.io/football/teams/66.png",
-    "away goal": 1
+    "hometeam": "Arsenal",
+    "homelogo": "https://media.api-sports.io/football/teams/42.png",
+    "homegoal": 2,
+    "awayteam": "Aston Villa",
+    "awaylogo": "https://media.api-sports.io/football/teams/66.png",
+    "awaygoal": 1
   },
   {
     "referee": "T. Bramall",
     "venue": "Craven Cottage",
-    "home team": "Fulham",
-    "home logo": "https://media.api-sports.io/football/teams/36.png",
-    "home goal": 2,
-    "away team": "Brighton",
-    "away logo": "https://media.api-sports.io/football/teams/51.png",
-    "away goal": 1
+    "hometeam": "Fulham",
+    "homelogo": "https://media.api-sports.io/football/teams/36.png",
+    "homegoal": 2,
+    "awayteam": "Brighton",
+    "awaylogo": "https://media.api-sports.io/football/teams/51.png",
+    "awaygoal": 1
   },
   {
     "referee": "D. England",
     "venue": "Elland Road",
-    "home team": "Leeds",
-    "home logo": "https://media.api-sports.io/football/teams/63.png",
-    "home goal": 1,
-    "away team": "Everton",
-    "away logo": "https://media.api-sports.io/football/teams/45.png",
-    "away goal": 1
+    "hometeam": "Leeds",
+    "homelogo": "https://media.api-sports.io/football/teams/63.png",
+    "homegoal": 1,
+    "awayteam": "Everton",
+    "awaylogo": "https://media.api-sports.io/football/teams/45.png",
+    "awaygoal": 1
   },
   {
     "referee": "C. Pawson",
     "venue": "King Power Stadium",
-    "home team": "Leicester",
-    "home logo": "https://media.api-sports.io/football/teams/46.png",
-    "home goal": 0,
-    "away team": "Manchester United",
-    "away logo": "https://media.api-sports.io/football/teams/33.png",
-    "away goal": 1
-  },
-  {
-    "referee": "P. Bankes",
-    "venue": "London Stadium",
-    "home team": "West Ham",
-    "home logo": "https://media.api-sports.io/football/teams/48.png",
-    "home goal": 1,
-    "away team": "Tottenham",
-    "away logo": "https://media.api-sports.io/football/teams/47.png",
-    "away goal": 1
-  },
-  {
-    "referee": "S. Hooper",
-    "venue": "Selhurst Park",
-    "home team": "Crystal Palace",
-    "home logo": "https://media.api-sports.io/football/teams/52.png",
-    "home goal": 1,
-    "away team": "Brentford",
-    "away logo": "https://media.api-sports.io/football/teams/55.png",
-    "away goal": 1
-  },
-  {
-    "referee": "M. Oliver",
-    "venue": "St. Mary's Stadium",
-    "home team": "Southampton",
-    "home logo": "https://media.api-sports.io/football/teams/41.png",
-    "home goal": 2,
-    "away team": "Chelsea",
-    "away logo": "https://media.api-sports.io/football/teams/49.png",
-    "away goal": 1
-  },
-  {
-    "referee": "A. Marriner",
-    "venue": "Anfield",
-    "home team": "Liverpool",
-    "home logo": "https://media.api-sports.io/football/teams/40.png",
-    "home goal": 2,
-    "away team": "Newcastle",
-    "away logo": "https://media.api-sports.io/football/teams/34.png",
-    "away goal": 1
-  },
-  {
-    "referee": "P. Tierney",
-    "venue": "Etihad Stadium",
-    "home team": "Manchester City",
-    "home logo": "https://media.api-sports.io/football/teams/50.png",
-    "home goal": 6,
-    "away team": "Nottingham Forest",
-    "away logo": "https://media.api-sports.io/football/teams/65.png",
-    "away goal": 0
+    "hometeam": "Leicester",
+    "homelogo": "https://media.api-sports.io/football/teams/46.png",
+    "homegoal": 0,
+    "awayteam": "Manchester United",
+    "awaylogo": "https://media.api-sports.io/football/teams/33.png",
+    "awaygoal": 1
   }
 ]

@@ -15,8 +15,12 @@ router.get("/leaguestandings", (req, res) => {
   res.render("leaguestandings", { leagueStandingsData });
 });
 
-// router.get("/fixtures", (req, res) => {
-//   res.render("fixtures", { fixtures });
-// });
+router.get("/fixtures", (req, res) => {
+  res.render("fixtures", { fixturesData });
+});
+
+router.get("/login", (req, res) => {
+  res.render("login");
+});
 
 module.exports = router;

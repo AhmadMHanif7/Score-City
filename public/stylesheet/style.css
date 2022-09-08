@@ -29,6 +29,21 @@ nav {
   justify-content: space-between;
 }
 
+.navLinks {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.pageLinks {
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.pageLinks:hover {
+  color: orange;
+}
+
 .logo {
   text-transform: uppercase;
   font-size: 40px;
@@ -403,6 +418,7 @@ tr:hover {
 footer {
   margin-top: 50px;
 }
+
 /* ---------responsive---------- */
 @media (max-width: 900px) {
   .mainLanding h2 {
