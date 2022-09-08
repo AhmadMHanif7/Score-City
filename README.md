@@ -7,6 +7,8 @@ Score City is a statistic website that gathers potential odds between two futbal
 API USED:
 https://rapidapi.com/api-sports/api/api-football/
 https://rapidapi.com/fluis.lacasse/api/footapi7/
+https://stytch.com/dashboard/api-keys
+OAuth2 API
 
 CSS framework used:
 None. Built CSS inhouse 
